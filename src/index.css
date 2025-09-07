@@ -12,7 +12,7 @@
   --surface-clr: #141414;
   --text-primary-clr: #FFF;
   --text-secondary-clr: #b1b1b1;
-  --accent-clr: #7AFC07;
+  --accent-clr: #359e4b;
 }
 
 body{
@@ -44,4 +44,11 @@ li{
   max-width: 1400px;
   margin: auto;
   padding-inline: 2rem;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
 }
