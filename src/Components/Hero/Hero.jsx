@@ -5,14 +5,14 @@ import HeroImage from '../../assets/Hero.png'
 const Hero = () => {
   return (
     <section>
-      <div className="flex">
+      <div className="hero-section flex">
         <div className="hero-content">
             <span className="sub-text">Hello, there!</span>
             <h1>
                 <span className='green-text'>I'm Rahma,</span>
                 Front-End Developer & UX/UI Designer
             </h1>
-            <p>
+            <p className='para'>
                 Passionate about developing high-performance web and mobile applications, proficient in modern technologies such as React.js and Vue.js for front-end, Flutter for mobile development.
             </p>
             <div>

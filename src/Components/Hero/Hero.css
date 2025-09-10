@@ -1,6 +1,4 @@
-.hero-image {
-  
-}
+.hero-image,
 .hero-content {
   flex: 1;
   
@@ -12,7 +10,7 @@
   text-transform: capitalize;
 
 }
-.h1{
+h1{
     font-size: 4.5rem;
     line-height: 5rem;
     color: var(--text-primary-clr);
@@ -21,6 +19,7 @@
 .green-text{
     color: var(--accent-clr);
 }
+
 p{  
     font-size: .95rem;
     color: var(--text-secondary-clr);
