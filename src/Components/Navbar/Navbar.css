@@ -100,7 +100,8 @@
         top: 20%;
         left: -100%;
         transform: translateX(-50%);
-        background-color: var(--surface-clr);
+        background-color: rgba(var(--surface-clr), 0.3);
+        backdrop-filter: blur(20px);
         border: .1rem solid rgba(123,123,123,0.2);
         width: 20rem;
         padding: 1.5rem;
